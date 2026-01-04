@@ -18,7 +18,7 @@ const ContactIcons = ({ prop }: any) => (
         <Phone className="w-6 h-6 text-[#d4af37] hover:scale-110 transition-transform duration-300" />
       </a>
       <a
-        href={`https://${prop.linkedin}`}
+        href={`https://www.linkedin.com/in/${prop.linkedin}`}
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 rounded-full bg-[#d4af37]/10 hover:bg-[#d4af37]/20 transition-all duration-300"
@@ -62,7 +62,7 @@ const ContactIcons = ({ prop }: any) => (
           <Phone className="w-6 h-6 text-[#d4af37] hover:scale-110 transition-transform duration-300" />
         </a>
         <a
-          href={`https://${prop.linkedin}`}
+          href={`https://www.linkedin.com/in/${prop.linkedin}`}
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-[#d4af37]/10 hover:bg-[#d4af37]/20 transition-all duration-300"
